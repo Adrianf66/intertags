@@ -97,11 +97,30 @@ body{
     font-weight: 300;
 }
 .rodape{
-    
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;;
     background-color: #000000;
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
     text-align: center;
     padding: 2%;
+}
+
+
+@media(max-width: 1200px){
+    .apresentacao__abertura{
+        flex-direction: column;
+    }
+    .apresentacao___abertura__boasvindas{
+        justify-content: center;
+    }
+    .apresentacao__galeria{
+        gap: 29px;
+    }
+    .apresentacao__galeria__artigos{
+        flex-direction: column;
+        gap: 25px;
+    }
 }
