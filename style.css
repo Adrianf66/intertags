@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    height: 100vh;
+}
+.cabecalho{
+    background-color: #000000;
+    padding: 1%;
+    margin-bottom: 18px;
+}
+.apresentacao{
+    padding: 1% 21% 5% 21%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.apresentacao__abertura{
+    display: flex;
+    justify-content: space-between;
+    gap: 26px;
+    margin-bottom: 40px;
+}
+.apresentacao___abertura__boasvindas{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #000000; 
+    color: #FFFFFF;
+    border-radius: 20px;
+    padding: 56px 24px;
+    font-size: 1.25rem;
+}
+.apresentacao___abertura__sobreintertags{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 20px;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap: 15px;
+}
+.apresentacao__galeria{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 49px;
+}
+.apresentacao__galeria__artigos{
+    display: flex;
+    justify-content: space-around;
+    /* gap: 15px; */
+}
+.apresentacao__artigos__titulo{
+    background-color: #000000;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    padding: 2% 0;
+    border-radius: 10px;
+    /* padding: 19px 300px; */
+}
+.apresentacao__galeria__artigos__artigos{
+    background-color: #b9b9b9;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    padding: 1%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.apresentacao__galeria__artigos_leitura{
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+.rodape{
+    
+    background-color: #000000;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 2%;
+}
