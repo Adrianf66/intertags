@@ -15,6 +15,35 @@ body{
     padding: 1%;
     margin-bottom: 18px;
 }
+.apresentacao{
+    padding: 2%;
+}
+.apresentacao__abertura{
+    display: flex;
+    gap: 3%;
+    margin-bottom: 2%;
+}
+.apresentacao___abertura__boasvindas{
+    background-color:#000000;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    border-radius: 10px;
+    padding: 2% 3%;
+    text-align: center;
+}
+.apresentacao___abertura__sobreintertags{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    border-radius: 10px;
+    padding: 2% 3%;
+    display: flex;
+    flex-direction: column;
+}
 .apresentacao_ultimoPost{
     display: flex;
     margin: 1% 0;
@@ -45,40 +74,9 @@ body{
     font-size: 1rem;
     text-align: justify;
 }
-.apresentacao{
-    padding: 2%;
-}
-.apresentacao__abertura{
-    display: flex;
-    gap: 3%;
-    margin-bottom: 2%;
-}
-.apresentacao___abertura__boasvindas{
-    background-color:#000000;
-    color: #FFFFFF;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 2.5rem;
-    border-radius: 10px;
-    padding: 2% 3%;
-    text-align: center;
-}
-.apresentacao___abertura__sobreintertags{
-    background-color: #000000;
-    color: #FFFFFF;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 2rem;
-    border-radius: 10px;
-    padding: 2% 3%;
-    display: flex;
-    flex-direction: column;
-}
-
 .apresentacao__galeria{
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 25px;
 }
 .apresentacao__galeria__titulo{
@@ -95,8 +93,8 @@ body{
 .apresentacao__galeria__artigos{
     padding: 1%;
     display: flex;
-    justify-content: center;
-    gap: 25%;
+    justify-content: space-between;
+    /* gap: 25%; */
 }
 .apresentacao__galeria__artigos__artigos{
     background-color: #B9B9B9;
@@ -105,6 +103,7 @@ body{
     font-family: 'Inter', sans-serif;
     font-weight: 500;
     font-size: 1.75rem;
+    text-align: center;
 }
 .apresentacao__galeria__artigos__artigos:hover{
     background-color: #778899;
@@ -131,4 +130,27 @@ body{
     flex-direction: column;
     text-align: center;
     padding: 2%;
+}
+@media(max-width: 1200px){
+    .apresentacao__abertura{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .apresentacao_ultimoPost{
+        flex-direction: column;
+    }
+    .imagem{
+        text-align: center;
+    }
+    .apresentacao__galeria__artigos{
+        flex-direction: column;
+        gap: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .apresentacao__galeria__artigos__artigos{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
 }
